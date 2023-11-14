@@ -67,7 +67,7 @@ abstract class _LoginStore with Store, Validator {
 
   Future<String> _logged() async {
     final response = await http.post(
-      Uri.parse("$URL_BASE + login"),
+      Uri.parse("$URL_BASE/login"),
       body: {
         'email': user.email,
         'password': user.password,

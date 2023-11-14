@@ -2,7 +2,7 @@ import 'package:target/src/models/user.dart';
 
 const String LIST_TOKEN = 'listToken';
 
-const String URL_BASE = "https://reqres.in/api/";
+const String URL_BASE = "https://reqres.in/api";
 
 List<User> users = [
   User(
